@@ -5,7 +5,7 @@ export default {
   target: 'static',
   ssr: 'falsein',
   router: {
-    base: '/<nxt>/'
+    base: '/nxt/'
   },
   head: {
     titleTemplate: '%s - nxt',
