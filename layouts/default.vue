@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app light>
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
@@ -48,7 +48,7 @@
       >
         <v-icon>mdi-minus</v-icon>
       </v-btn>
-      <v-toolbar-title v-text="title" />
+      <v-toolbar-title v-text="title" /><!--barra Vuetify.js-->
       <v-spacer />
       <v-btn
         icon
@@ -89,8 +89,10 @@
 </template>
 
 <script>
+import { mdiAccountBox } from '@mdi/js'
+
 export default {
-  name: 'DefaultLayout',
+  name: 'TodoItem',
   data () {
     return {
       clipped: false,
@@ -98,14 +100,9 @@ export default {
       fixed: false,
       items: [
         {
-          icon: 'mdi-apps',
-          title: 'Welcome',
+          icon: mdiAccountBox,
+          title: 'Rick and Morty',
           to: '/'
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
         }
       ],
       miniVariant: false,
