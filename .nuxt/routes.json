@@ -1,0 +1,16 @@
+[
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "C:\\\\Users\\\\mvera\\\\Desktop\\\\nxt\\\\pages\\\\inspire.vue",
+    "chunkName": "pages/inspire",
+    "_name": "_19b899cc"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\mvera\\\\Desktop\\\\nxt\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_6c0c2244"
+  }
+]
